@@ -17,6 +17,3 @@ const circle = {
 };
 
 circle.draw();
-
-
-
