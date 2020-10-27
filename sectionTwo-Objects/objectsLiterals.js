@@ -1,3 +1,5 @@
+console.log('============Objects Literals==============')
+
 // Its a simple way to define an object.
 // Use let or const
 // const = constant, cant reassign .
@@ -15,3 +17,5 @@ const circle = {
 };
 
 circle.draw();
+
+
