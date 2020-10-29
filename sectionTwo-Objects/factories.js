@@ -48,3 +48,6 @@ const circle = {
 
 circle.draw();
 */
+
+cosdfsnst circle = 0;
+
