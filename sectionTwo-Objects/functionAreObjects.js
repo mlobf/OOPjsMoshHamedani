@@ -6,7 +6,12 @@ function Circle(radius) {
         console.log('Draw');
     }
 }
-//The purple are methods and the blue ones are propertys
+//The purple are methods and the blue ones are property
+
+Circle.call({},1);
+Circle.apply({},[1]);
 
 const another = new Circle(1);
 console.log(another.constructor);
+
+

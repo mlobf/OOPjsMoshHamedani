@@ -18,4 +18,3 @@ const circle = {
 
 circle.draw();
 
-
