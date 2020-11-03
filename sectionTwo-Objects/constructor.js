@@ -7,7 +7,8 @@ function Circle(radius) {
     }
 }
 
-const another = new Circle(1);
+const another = new Circle(1);//Create an empty object.
+// Throught it, no need to return as will be make automatically.
 another.draw();
 
 
