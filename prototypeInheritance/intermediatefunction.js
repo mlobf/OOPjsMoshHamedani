@@ -1,0 +1,1 @@
+// Intermediate Function Inherance.
