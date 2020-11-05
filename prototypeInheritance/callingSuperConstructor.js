@@ -1,10 +1,8 @@
 // Calling Super Constructor.
-
 console.log('============ Lesson 34 => Calling the Super Constructor ==============');
 
 function Shape(color) {
     this.color = color;
-
 }
 
 Shape.prototype.duplicate = function () {
@@ -12,7 +10,7 @@ Shape.prototype.duplicate = function () {
 }
 
 function Circle(radius, color) {
-    Shape(this, color);
+    Shape.call(this, color);
     this.radius = radius;
 }
 
@@ -24,7 +22,14 @@ Circle.prototype.draw = function () {
 }
 
 const s = new Shape();
-const c = new Circle(1,'red');
+const c = new Circle(1, 'red');
+
+
+
+
+
+
+
 
 
 
