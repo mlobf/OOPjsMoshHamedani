@@ -34,6 +34,5 @@ mixin(Goldfish.prototype, canEat, canSwim);
 // Now create a Person who can eat and walk...
 // Using EA6 way
 
-
 const person = Object.assign({}, canEat, canWalk);
 console.log(person);
