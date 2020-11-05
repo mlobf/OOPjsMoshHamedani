@@ -1,4 +1,4 @@
-// 
+//Means reimplementing an method in a Child Object.
 console.log('========== Overwriting Methods ==============');
 
 function extend(Child, Parent) {
