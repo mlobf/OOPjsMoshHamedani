@@ -1,6 +1,6 @@
-// Lets show the diferences between .
+// Lets show the differences between .
 // In JS we dont have classes, only objects.
-// so how to implente Inheritance in objects?
+// so how to implement Inheritance in objects?
 //
 
 let x = { };
@@ -16,7 +16,7 @@ console.log(result);
 
 
 //How does JS works?
-// First will looks to  own objects prototypes, if didnt find it, goes upper, 
+// First will looks to  own objects prototypes, if didn't find it, goes upper, 
 //      climbing parent Classes until find 
 //      something.
 

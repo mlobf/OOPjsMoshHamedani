@@ -5,7 +5,7 @@ let person = {
     name: 'Mosh'
 };
 
-console.log('======= beg  ========')
+console.log('======= beg  ========');
 
 Object.defineProperty(person, 'name', {
     writable: false,
@@ -24,7 +24,7 @@ let descriptor = Object.getOwnPropertyDescriptor(objectBase, 'toString');
 console.log(descriptor);
 
 
-console.log('======= This is Upper to know ========')
+console.log('======= This is Upper to know ========');
 
 
 

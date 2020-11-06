@@ -1,6 +1,6 @@
-// Intermediate Function Inherance.
+// Intermediate Function Inheritance.
 // This is represented as "extend function"
-// Lets create a Square object that Inheritance from the shape.
+// Lets create a Square object that Inheritances from the shape.
 
 console.log('============ Lesson 35 Intermediate inheritance Function ==============');
 

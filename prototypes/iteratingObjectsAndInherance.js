@@ -2,7 +2,7 @@ function Circle(radius) {
     // Instance members
     this.move = function () {
         console.log('move');
-    }
+    };
 }
 
 const c1 = new Circle(1);
@@ -10,7 +10,7 @@ const c1 = new Circle(1);
 //Prototype members
 Circle.prototype.draw = function () {
     console.log('draw');
-}
+};
 //Returns only instance members
 console.log(Object.keys(c1));
 
@@ -24,10 +24,10 @@ Array.prototype.shuffle = function(){
 const array = [];
 array.shuffle();
 
-// You should not modify the bulding Objects in Javascript.
-//      and the reason is.... mable um the future , you will you a 
+// You should not modify the building Objects in Javascript.
+//      and the reason is.... Maybe um the future , you will you a 
 //      library whom has his own method .shuffle's arrays.
-// So the great lesson is ..... Dont modify Objects that you dont own.
+// So the great lesson is ..... Don't modify Objects that you don't own.
 
 
 

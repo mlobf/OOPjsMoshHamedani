@@ -1,5 +1,5 @@
 console.log('========= Lesson 15 , Abstraction ============');
-// Abstraction Means..... hide the details, show the essencials.
+// Abstraction Means..... hide the details, show the essentials.
 
 function Circle(radius) {
     this.radius = radius;
@@ -8,12 +8,12 @@ function Circle(radius) {
 
     this.computeOptimumLocation = function(factor){
         //... 
-    }
+    };
 
     this.draw = function(){
         this.computeOptimumLocation(0.1);
         console.log('draw');
-    }
+    };
 }
 
 const circle = new Circle(10);

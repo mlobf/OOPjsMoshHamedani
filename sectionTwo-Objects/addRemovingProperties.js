@@ -2,7 +2,7 @@ console.log('--------------------------------');
 /*
     The objects in JS are dynamic, 
     you can add properties or delete them.
-    Why this is usefull?
+    Why this is usefully?
         A site need a client's token....this new token is a new property.
 */
 function Circle(radius) {
@@ -17,8 +17,8 @@ const circle = new Circle(10);
 
 circle.location = { x: 1};//1 way to do it.
 circle['locatium'] = {x: 1};//2 way to do it.
-// This second is better when we have special caracters as 
-// dfasdfasdf-adsfasdf or spaces between caracters.
+// This second is better when we have special characters as 
+// dfasdfasdf-adsfasdf or spaces between characters.
 
 // To delete we user .delete
 
