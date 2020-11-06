@@ -1,7 +1,7 @@
 console.log('============Factories==============')
 
-// If your object has behavior
-// the soluctions is use Factor or Construction Function.
+// If your object has behaviour
+// the solutions is use Factor or Construction Function.
 
 //Factory Function.
 function createCircle(radius){

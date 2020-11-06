@@ -1,7 +1,7 @@
 console.log('============Constructor Property==============');
 
 //Every Object has own constructor property
-// asd that references  the function the creates the objects.
+// As that references  the function the creates the objects.
 
 new String();
 new Boolean();

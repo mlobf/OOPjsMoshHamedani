@@ -3,7 +3,7 @@ console.log("========= Exercise Prototypes ===============");
 
 
 // Design a stopWatch like this.
-// It has thoose methods.
+// It has those methods.
 //  ->Duration
 //  ->Reset 
 //  ->Star

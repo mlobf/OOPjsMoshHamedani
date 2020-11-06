@@ -5,7 +5,7 @@ function Shape() {
 
 Shape.prototype.duplicated = function() {
     console.log('duplicated');
-}
+};
 
 function Circle(radius) {
     this.radius =radius;
@@ -19,7 +19,7 @@ Circle.prototype.constructor = Circle;
 
 Circle.prototype.draw = function(){
     console.log('draw');
-}
+};
 
 const s = new Shape();
 const c = new Circle(1);

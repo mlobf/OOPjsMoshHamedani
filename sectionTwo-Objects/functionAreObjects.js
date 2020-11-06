@@ -4,7 +4,7 @@ function Circle(radius) {
     this.radius = radius;
     this.draw = function() {
         console.log('Draw');
-    }
+    };
 }
 //The purple are methods and the blue ones are property
 

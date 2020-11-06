@@ -25,12 +25,12 @@ Circle.prototype.duplicate = function () {
 function Square() {}
 // Like Circle, lets extend Square.
 extend(Square, Shape);
-//Redifine Duplicated Method on the Square Object.
+//Redefine Duplicated Method on the Square Object.
 Square.prototype.duplicate = function () {
     //Shape.prototype.duplicate.call(this);
     console.log('Duplicate Square');
 }
-// Each object will drive a diferent implementation of the duplicate method;
+// Each object will drive a different implementation of the duplicate method;
 
 const shapes = [
     new Circle(),
@@ -40,5 +40,5 @@ const shapes = [
 for (let shape of shapes) {
     shape.duplicate();
     // Now the poly.... if the shape is Circle or Square, an 
-    //  diferent implementation if duplicate method will be apply
+    //  different implementation if duplicate method will be apply
 }
