@@ -1,3 +1,6 @@
+'use strict';
+
+
 // This keyword
 // Declaring a constructor function called  Circle
 
