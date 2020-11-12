@@ -18,13 +18,16 @@ const _move = new WeakMap(); // Using WeakMap this varible will be collected by 
 class Circle {
     constructor(radius) {
         _radius.set(this, radius);
-        _move.set(this,function(){
+
+        _move.set(this, () => {
             console.log('move', this);
         });
     }
 
     draw() {
-        console.log(_radius.get(this));
+        _move.get(this)();
+
+        console.log('draw');
     }
 }
 
