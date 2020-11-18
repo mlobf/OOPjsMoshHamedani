@@ -1,5 +1,5 @@
 console.log('========= Lesson 15 , Abstraction ============');
-// Abstraction Means..... hide the details, show the essentials.
+// Abstraction Means..... Hide the details, show the essentials.
 
 function Circle(radius) {
     this.radius = radius;

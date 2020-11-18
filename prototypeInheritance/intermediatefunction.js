@@ -1,5 +1,5 @@
 // Intermediate Function Inheritance.
-// This is represented as "extend function"
+// This is represented as "Extend function"
 // Lets create a Square object that Inheritances from the shape.
 
 console.log('============ Lesson 35 Intermediate inheritance Function ==============');
@@ -10,7 +10,7 @@ function Shape(color) {
 
 Shape.prototype.duplicate = function () {
     console.log('duplicate');
-}
+};
 
 function extend(Child, Parent) {
     Child.prototype = Object.create(Parent.prototype);

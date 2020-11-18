@@ -1,4 +1,4 @@
-// Method overRidding
+// Method overriding
 
 class Shape {
     move() {

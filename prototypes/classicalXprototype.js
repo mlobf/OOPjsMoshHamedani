@@ -1,5 +1,5 @@
 // Lets show the differences between .
-// In JS we dont have classes, only objects.
+// In JS we don't have classes, only objects.
 // so how to implement Inheritance in objects?
 //
 

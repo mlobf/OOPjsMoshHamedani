@@ -2,7 +2,7 @@
 console.log("========= Exercise Prototypes ===============");
 
 
-// Design a stopWatch like this.
+// Design a stop Watch like this.
 // It has those methods.
 //  ->Duration
 //  ->Reset 

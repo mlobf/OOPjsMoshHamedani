@@ -27,7 +27,7 @@ const c1 = new Circle(1);
 const c2 = new Circle(1);
 
 console.log(c1.prototype);
-// Implementing toString by Base Class Prototype.
+// Implementing to String by Base Class Prototype.
 Circle.prototype.toString = function () {
     return 'Circle with radius' + this.radius;
 }

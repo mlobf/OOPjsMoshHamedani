@@ -1,7 +1,7 @@
 console.log('=========== Lesson 17 Getter and Setters ==============');
 /*
     This will get Us a definition about getter and setters.
-    Getter is a function setted to read a property.
+    Getter is a function to set and to read a property.
     To define value to this property from outside, shall use a setter.
 
 */
