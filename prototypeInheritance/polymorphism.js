@@ -1,4 +1,4 @@
-// Polymorphism
+// Polymorphic
 console.log('========== Polymophisms ==============');
 
 function extend(Child, Parent) {

@@ -24,7 +24,7 @@ Array.prototype.shuffle = function(){
 const array = [];
 array.shuffle();
 
-// You should not modify the building Objects in Javascript.
+// You should not modify the building Objects in JavaScript.
 //      and the reason is.... Maybe um the future , you will you a 
 //      library whom has his own method .shuffle's arrays.
 // So the great lesson is ..... Don't modify Objects that you don't own.

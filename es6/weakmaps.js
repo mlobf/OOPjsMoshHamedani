@@ -12,8 +12,8 @@ const c = new Circle(1);
 
 console.log(c);
 */
-const _radius = new WeakMap(); // Using WeakMap this varible will be collected by Garbage Collector
-const _move = new WeakMap(); // Using WeakMap this varible will be collected by Garbage Collector
+const _radius = new WeakMap(); // Using WeakMap this variable will be collected by Garbage Collector
+const _move = new WeakMap(); // Using WeakMap this variable will be collected by Garbage Collector
 
 class Circle {
     constructor(radius) {

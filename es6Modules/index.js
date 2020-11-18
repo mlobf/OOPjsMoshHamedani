@@ -1,5 +1,5 @@
 // Modules
-// In order to make our code more human we get this recurse 
+// In order to make our code more human we get this recourse 
 //      creating modules to organize better this mess
 const Circle = require('./circle')
 

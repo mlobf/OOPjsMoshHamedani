@@ -1,14 +1,14 @@
 console.log("========= Exercise ===============");
 
 
-// Design a stopWatch like this.
+// Design a stopwatch like this.
 // It has those methods.
 //  ->Duration
 //  ->Reset 
 //  ->Star
 //  ->Stop
 
-function StopWatch() {
+function Stopwatch() {
     let startTime, endTime, running, duration = 0;
 
     this.start = function () {

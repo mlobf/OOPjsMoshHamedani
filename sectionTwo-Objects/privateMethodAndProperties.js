@@ -12,7 +12,7 @@ function Circle(radius) {
     this.getDefautLocation = function() {
         //Important - This implementation allows read only mode as enclosure 
         // the scope's methods
-        return defaultLocation;// Read only mode of defaultLocation
+        return defaultLocation;// Read only mode of default Location
     }
     // To convert this to a private method.
     //this.computeOptimumLocation = function(factor){

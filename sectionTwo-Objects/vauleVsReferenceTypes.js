@@ -2,7 +2,7 @@
 console.log("=============================== Values Vs References Types ========================")
 
 // Value types , called primitives.
-//      number, string, boolean, Symbol, undefined, null.
+//      number, string, Boolean, Symbol, undefined, null.
 // Reference types, 
 //      Objects, Functions, Arrays.
 // How they behaviour differently.

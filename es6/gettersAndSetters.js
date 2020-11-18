@@ -1,4 +1,4 @@
-// JS is Getting hot as sunSet......kkkkkk
+// JS is Getting hot as Sun set......kkkkkk
 
 const _radius = new WeakMap();
 
@@ -8,7 +8,7 @@ class Circle {
     }
 
     get radius() {
-        return _radius.get(this); // Looks like a method but can be acesse like a property
+        return _radius.get(this); // Looks like a method but can be access like a property
     }
 
     set radius(value) {

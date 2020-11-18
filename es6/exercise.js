@@ -1,7 +1,7 @@
 // Exercises 
 // Implement a stack using es6
-// Stack is like a pile, think in a burguer, a double burguer!!
-// A Stack has two essencial operations.
+// Stack is like a pile, think in a burgher, a double burgher!!
+// A Stack has two essential operations.
 // Push for add an object,
 // Pop to remove a object of top this box.
 // Create a Stack here 

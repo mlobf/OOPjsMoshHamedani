@@ -1,5 +1,5 @@
 // StaticMethod
-// In OOP we have Instances Methods and Static Methods- Are avalible in Class it self.
+// In OOP we have Instances Methods and Static Methods- Are available in Class it self.
 
 class Circle {
     constructor(radius) {
