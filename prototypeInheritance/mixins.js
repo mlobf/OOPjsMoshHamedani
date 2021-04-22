@@ -1,28 +1,29 @@
 function mixin(target, ...sources) {
-    Object.assign(target, ...sources);
+	Object.assign(target, ...sources);
 }
 
 // Lets Mix some Class....
 // Define a new object...
 const canEat = {
-    eat: function () {
-        this.hunger--;
-        console.log('Eating');
-    }
+	eat: function () {
+		this.hunger--;
+		console.log("Eating");
+	},
 };
+
 const canWalk = {
-    walk: function () {
-        console.log('Im going for a walk...');
-    }
+	walk: function () {
+		console.log("Im going for a walk...");
+	},
 };
 
 const canSwim = {
-    walk: function () {
-        console.log('Im going wet....');
-    }
+	walk: function () {
+		console.log("Im going wet....");
+	},
 };
 
-function Person() {};
+function Person() {}
 
 mixin(Person.prototype, canEat, canWalk);
 const person = new Person();

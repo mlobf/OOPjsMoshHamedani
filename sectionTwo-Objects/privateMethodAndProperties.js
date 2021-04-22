@@ -19,6 +19,7 @@ function Circle(radius) {
     //    //... 
     //}
     // Now we have a private method
+
     let  computeOptimumLocation = function(factor) {
         //... 
     }

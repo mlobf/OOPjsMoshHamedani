@@ -1,7 +1,6 @@
 //Lets some exercises .... 
 console.log('----------------- Lesson 41/42 Exercise 1 --------------------');
 
-
 // The constructor function
 function HtmlElement() {
     this.click = function () {
@@ -43,12 +42,6 @@ console.log('----------------- Lesson 43/44 Exercise 2 --------------------');
 
 // Extend the HtmlSelectElement and Implement a Random Method.
 // This is an polymorphic exercise.
-
-
-
-
-
-
 
 
 function HtmlImageElement(src) {

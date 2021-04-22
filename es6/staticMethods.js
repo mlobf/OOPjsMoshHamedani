@@ -1,5 +1,5 @@
 // StaticMethod
-// In OOP we have Instances Methods and Static Methods- Are available in Class it self.
+// In OOP we have Instances Methods and Static Methods- That are available in Class it self.
 
 class Circle {
     constructor(radius) {
@@ -7,7 +7,9 @@ class Circle {
     }
 
     //Instance Method
-    draw() {}
+    draw() {
+        console.log('Lets draw!!')
+    }
 
 
     //Static Method, to create utilities functions that are not tied into a particular object;

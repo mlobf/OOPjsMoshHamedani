@@ -14,15 +14,20 @@ function Circle(radius){
 // Now the new way
 
 class Circle {
-    constructor(radius) {
-        this.radius = radius;
-    }
-    // Add the draw method
-    draw() {
-        console.log('draw');
-    }
+	constructor(radius) {
+		this.radius = radius;
+	}
+	// Add the draw method
+	draw() {
+		//console.log("draw");
+	}
+	teste() {
+		console.log("oi oi oi oi o");
+	}
 }
 
 const c = new Circle(1);
 
-console.log(typeof(c));
+console.log(typeof c);
+
+console.log(c.teste());
